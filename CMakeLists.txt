@@ -5,7 +5,6 @@ CMAKE_MINIMUM_REQUIRED (VERSION 2.8 FATAL_ERROR)
 PROJECT (JWT)
 
 include(${CMAKE_CURRENT_SOURCE_DIR}/../conanbuildinfo.cmake)
-#include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup()
 
 SET (TOOLS_DIRECTORY ${JWT_SOURCE_DIR}/tools)
